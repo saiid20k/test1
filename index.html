@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imgs/icon-001.jpg">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    LOGO
+                </div>
+
+                <div class="link">
+                    <i class="fa fa-bars icon-bar" aria-hidden="true" id="toggleBtn"></i>
+                    <ul class="links swit" id="links">
+                        <div id="link">
+                            <div class="profile">
+                                <div class="img">
+        
+                                </div>
+                                <div class="text">
+                                    <h1> Saiid Abdullahi </h1>
+                                    <h3> Web Developer </h3>
+                                </div>
+                                <div class="icons">
+                                    <div>
+                                        <a href="#"> <i class="fa fa-github" aria-hidden="true"></i> </a> &nbsp; &nbsp;
+                                    </div>
+                                    <div>
+                                        <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>  &nbsp;  &nbsp;
+                                    </div>
+                                    <div>
+                                        <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>  &nbsp; &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="firstLI"> <a href="#banner" class="Active"> 
+                                <i class="fa fa-home display-icon" aria-hidden="true"></i>
+                                Home 
+                            </a> </li>
+                            <li> <a href="#About"> 
+                                <i class="fa fa-user display-icon" aria-hidden="true"></i>
+                                About 
+                            </a> </li>
+                            <li> <a href="#Skiils"> 
+                                <i class="fa fa-code display-icon" aria-hidden="true"></i>
+                                Skiils 
+                            </a> </li>
+                            <li> <a href="#Service"> 
+                                <i class="fa fa-th-large display-icon" aria-hidden="true"></i>
+                                Service 
+                            </a> </li>
+                            <li> <a href="#Work"> 
+                                <i class="fa fa-check display-icon" aria-hidden="true"></i>
+                                Work </a> 
+                            </li>
+                            <li> <a href="#Contact"> 
+                                <i class="fa fa-comment display-icon" aria-hidden="true"></i>
+                                Contect 
+                            </a> </li>
+                            
+                            
+                            <div class="setting-box">
+                                <div class="icon">
+                                    <img src="./imgs/moon.png" alt="icon" id="iconDark">
+                                </div>
+            
+                                <div class="Language">
+                                    <button> <a href="#"> العربية </a> </button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </ul>
+                </div>
+
+
+            </nav>            
+        </div>
+
+    </header>
+
+    <section id="banner">
+        <div class="banner">
+            <div class="container">
+                <div class="left">
+                    <h1> Hello! </h1>
+                    <h3> My Name is<span> Saiid</span> </h3>
+                    <h5> Front End Developer </h5>
+                    <p>
+                        A Professional Front End Developer With
+                        One Year Of Experience,
+                        I Have Passion Towards Coding. 
+                    </p>
+                    <button>Download My CV</button>                
+                </div>
+                <div class="right">
+                    <img src="./imgs/img-02.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="About" data-aos="zoom-in-up" data-aos-delay="500">
+        <div class="about">
+            <div class="container">
+                <h2 class="main-heading">
+                    About Me
+                </h2>
+                <div class="all">
+                    <div class="right">
+                        <img src="./imgs/img-01.svg" alt="">
+                    </div> 
+                    <div class="left">
+                        <p>
+                            I am a Junior Front End Developer With over a Year of Experience
+                            Developing Front End Web Applications.
+                            I create successful websites that are fast, easy to use, 
+                            and built with best practices.
+                            I like to write semantic, cross browser compatible code
+                            by hand that is re-useable, maintainable and easy to understand.
+                        </p>
+                    </div>                   
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Skiils" data-aos="fade-up">
+        <div class="skiils">
+            <div class="container">
+                <h2 class="main-heading"> Skiils </h2>
+                <div class="box">
+                    <button id="front">Front End</button> &nbsp; &nbsp;
+                    <button id="back">Back End</button>
+                </div>
+
+
+                <!-- <div class="skiil-box">
+                    <div class="skiil-name"> HTML </div>
+                    <div class="skill-progress">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="skiil-box">
+                    <div class="skiil-name"> CSS </div>
+                    <div class="skill-progress">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="skiil-box">
+                    <div class="skiil-name"> Javascript </div>
+                    <div class="skill-progress">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="skiil-box">
+                    <div class="skiil-name"> Bootstrap </div>
+                    <div class="skill-progress">
+                        <span></span>
+                    </div>
+                </div> -->
+                <div class="all-skiils">
+                    <div class="skiil">
+                        <div class="skiil-name"> HTML </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="90" data-progress="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skiil">
+                        <div class="skiil-name"> CSS </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="80" data-progress="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skiil">
+                        <div class="skiil-name"> Javascript </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="50" data-progress="50%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skiil">
+                        <div class="skiil-name"> Bootstrap </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="70" data-progress="70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skiil">
+                        <div class="skiil-name"> JQuery </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="55"></div>
+                        </div>
+                    </div>
+
+                    <div class="skiil">
+                        <div class="skiil-name"> PHP </div>
+                        <div class="skiil-progress">
+                            <div class="skiilPar" per="50"  data-progress="50%"></div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Service" data-aos="zoom-in" data-aos-delay="500">
+        <div class="service">
+            <div class="container">
+                <h2 class="main-heading">Service</h2>
+                <div class="all">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="./imgs/icon-01.png">
+                        <h2> Landing Page </h2>
+                        <p>
+                            Get Noticed With a Well-Designed and 
+                            Responsive Landing Page For Your Website.
+                        </p>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="./imgs/icon-02.png">
+                        <h2> Custom Website </h2>
+                        <p>
+                            Convert Your PSD to anything You Need.
+                            For Less Time And Money Than You Think.
+                        </p>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="./imgs/icon-03.png">
+                        <h2> Convert PSD </h2>
+                        <p>
+                            Convert Your PSD to anything You Need.
+                            For Less Time And Money Than You Think.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Work" data-aos="fade-in">
+        <div class="work">
+            <div class="container">
+                <h2 class="main-heading">Work</h2>
+                <p>
+                    These are Some of My Projects
+                </p>
+                <div class="projects">
+                    <div class="project" data-aos="fade-right" data-aos-delay="500">
+                        <img src="./imgs/project-01.PNG" alt="">
+                        <div class="info">
+                            <div>
+                               <h1> Crafelo Templet </h1> 
+                            </div>
+                            <div>
+                               <button> <a href="https://saiid20k.github.io/ux-ui/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project" data-aos="fade-right" data-aos-delay="500">
+                        <img src="./imgs/Rubtalk.png"">
+                        <div class="info"">
+                            <div>
+                               <h1> Rubtalk Templet </h1> 
+                            </div>
+                            <div>
+                               <button> <a href="https://saiid20k.github.io/Rubtalk/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project" data-aos="fade-right" data-aos-delay="1000">
+                        <img src="./imgs/BD-Hosting.png" alt="">
+                        <div class="info"">
+                            <div>
+                               <h1> BD-Hosting Templet </h1> 
+                            </div>
+                            <div>
+                               <button> <a href="https://saiid20k.github.io/BD-Hosting/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project" data-aos="fade-right" data-aos-delay="500">
+                        <img src="./imgs/project-04.PNG"">
+                        <div class="info"">
+                            <div>
+                               <h1 style="font-size: 14px;" data-aos="fade-right" data-aos-delay="1000"> East Africa University Website </h1> 
+                            </div>
+                            <div>
+                               <button style="font-size: 12px;" data-aos="fade-right" data-aos-delay="1000"> <a href="https://saiid20k.github.io/East-Africa-University/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="project" data-aos="fade-right" data-aos-delay="500">
+                        <img src="./imgs/project-05.PNG"">
+                        <div class="info"">
+                            <div>
+                               <h1> Code Editor </h1> 
+                            </div>
+                            <div>
+                               <button> <a href="https://saiid20k.github.io/code-editor/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project" data-aos="fade-right" data-aos-delay="500">
+                        <img src="./imgs/project-06.PNG"">
+                        <div class="info"">
+                            <div>
+                               <h1> leon Templet </h1> 
+                            </div>
+                            <div>
+                               <button> <a href="https://saiid20k.github.io/leon/" target="_blank"> View Project </a> </button>  
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="more">
+                    <button id="more"> + More Projects</button>
+                    <p id="message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="contact">
+            <div class="container">
+                <h2 class="main-heading">
+                    Contact us
+                </h2>
+                <div class="all-box">
+                    <div class="footer-bottom">
+                        <div class="contact-info">
+                            <div class="all">
+                                <h2 class="main-heading"> Contact Info </h2>
+                                <div class="box" style="margin-top: 45px;">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <h3> Bosaso, Puntland, Somalia. </h3>
+                                </div>
+                                <div class="box">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <h3> +252 907 017 878 </h3>
+                                </div>
+                                <div class="box">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <h3> saiid20k@gmail.com </h3>
+                                </div>
+                                <div class="box" style="text-align: center;">
+                                    <a href="#"> <i class="fa fa-facebook-square footer-icon" aria-hidden="true"></i> </a>
+                                    <a href="#"> <i class="fa fa-github-square footer-icon" aria-hidden="true"></i> </a>
+                                    <a href="mailto:saiid20k@gmail.com"> <i class="fa fa-envelope-square footer-icon" aria-hidden="true"></i> </a>
+
+                                </div>
+                            </div>
+
+
+                        </div>                    
+                    </div>
+
+                    <div class="form-box">
+                        <form action="index.html" method="POST">
+                            <input type="text" name="name" id="name" placeholder="Name *" required>
+                            <input type="email" name="email" id="email" placeholder="Email *" required>
+                            <textarea name="message" id="message" placeholder="message ..... *" required></textarea>   
+                            <input type="submit" value="Send" name="send" id="send">                     
+                        </form>
+                    </div>   
+                    
+
+
+                    
+                </div>
+
+                <div class="copy">
+                    <p>
+                        &copy; 2021. All Right Reseed.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+   
+    <script src="./js/main.js"></script>
+</body>
+</html>
